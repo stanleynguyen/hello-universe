@@ -24,5 +24,6 @@ Open service
 ## Some other commands
 
 - `ko publish github.com/stanleynguyen/hello-universe/mars`
-- `ko apply ./earth`
+- `ko publish ./mars`
+- `ko ./earth`
 - `ko resolve k8s/ko.yaml`
