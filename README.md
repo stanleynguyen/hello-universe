@@ -1,6 +1,7 @@
 # ko-demo
 
-Demo cluster for ko
+Demo cluster for ko.
+Slides can be found [here](https://docs.google.com/presentation/d/1RPEH_FwcobhATPmFyxxxj9WpV3TawvVlMUDWitEsBC4/edit?usp=sharing)
 
 ## Order
 
