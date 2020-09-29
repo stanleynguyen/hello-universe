@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-mars
-          image: github.com/stanleynguyen/hello-universe/mars
+          image: ko://github.com/stanleynguyen/hello-universe/mars
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000

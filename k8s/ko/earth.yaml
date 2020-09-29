@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-earth
-          image: github.com/stanleynguyen/hello-universe/earth
+          image: ko://github.com/stanleynguyen/hello-universe/earth
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000

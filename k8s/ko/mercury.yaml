@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-mercury
-          image: github.com/stanleynguyen/hello-universe/mercury
+          image: ko://github.com/stanleynguyen/hello-universe/mercury
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000

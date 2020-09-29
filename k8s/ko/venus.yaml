@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-venus
-          image: github.com/stanleynguyen/hello-universe/venus
+          image: ko://github.com/stanleynguyen/hello-universe/venus
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000

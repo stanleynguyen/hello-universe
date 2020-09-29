@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-jupiter
-          image: github.com/stanleynguyen/hello-universe/jupiter
+          image: ko://github.com/stanleynguyen/hello-universe/jupiter
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
