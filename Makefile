@@ -1,6 +1,6 @@
 build_publish:
-	cd earth/ && docker build . -t stanleynguyen/hello-earth && docker push stanleynguyen/hello-earth &&\
-	cd ../jupiter && docker build . -t stanleynguyen/hello-jupiter && docker push stanleynguyen/hello-jupiter &&\
-	cd ../mars && docker build . -t stanleynguyen/hello-mars && docker push stanleynguyen/hello-mars &&\
-	cd ../mercury && docker build . -t stanleynguyen/hello-mercury && docker push stanleynguyen/hello-mercury &&\
-	cd ../venus && docker build . -t stanleynguyen/hello-venus && docker push stanleynguyen/hello-venus
+	docker build . -t stanleynguyen/hello-earth -f earth/Dockerfile && docker push stanleynguyen/hello-earth &&\
+	docker build . -t stanleynguyen/hello-jupiter -f jupiter/Dockerfile && docker push stanleynguyen/hello-jupiter &&\
+	docker build . -t stanleynguyen/hello-mars -f mars/Dockerfile && docker push stanleynguyen/hello-mars &&\
+	docker build . -t stanleynguyen/hello-mercury -f mercury/Dockerfile && docker push stanleynguyen/hello-mercury &&\
+	docker build . -t stanleynguyen/hello-venus -f venus/Dockerfile && docker push stanleynguyen/hello-venus
